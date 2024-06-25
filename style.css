@@ -243,11 +243,27 @@ li button {
 .card:hover{
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
         /* border-radius: 2px !important; */
-        padding-top: 1rem !important;  
+        padding-top: 1rem !important;
+        text-decoration: white;
 }
 
 
-/* .card:hover{
-background-color: rgb(75, 70, 62);
-} */
+.card:hover{
+background-color: orange;
+/* color: white; */
+}
 
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);    }
+
+    
+}
+
+#rotateimg{
+    animation:rotate 65s linear infinite ;
+
+}
